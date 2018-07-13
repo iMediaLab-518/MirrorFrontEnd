@@ -1,0 +1,124 @@
+
+div {
+    box-sizing: border-box;
+}
+
+.baseColor{
+    color: #25b864
+}
+.fontColor{
+    color: #262626;
+}
+
+.registertHTML {
+    width: 100%;
+    margin-top: 130px;
+    text-align: center;
+}
+input.nameInput {
+
+    border-radius:4px;
+    border:1px solid #DBDBDB;
+    width: 100%;
+    margin-left: 1%;
+    height: 45px;
+    font-size: 0.9em;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+input.nameInput:focus{
+    outline: none;
+    border-color: #47c479;
+}
+.titleText{
+    color: #262626;
+    font-size: 26px;
+}
+
+.contentTip {
+    width: 20%;
+    display: inline;
+}
+.head {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+img.logo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.btnBox{
+    width: 100%;
+    
+    padding: 0 20px 0 20px;
+}
+.registerBtn {
+    font-size: 16px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 40px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #25b864;
+}
+
+.registerBox{
+    height: 80px;
+    padding: 0 20px 0 20px;
+}
+
+
+.nameWarning{
+    display: none;
+    margin-left: 15px;
+    float: left;
+    margin-top: 5px;
+    color: #f5222d;
+    font-size: 0.9em;
+}
+
+.waitAndResult{
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    background: white;
+}
+
+.message{
+    margin-top: 200px;
+    height: 200px;
+    text-align: center;
+    color: #262626;
+    font-size: 1em;
+}
+
+.finishBtn{
+    display: none;
+
+    font-size: 16px;
+    margin: 0 auto;
+    height: 45px;
+    line-height: 40px;
+    color: white;
+    font-weight: 400;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #25b864;
+}
